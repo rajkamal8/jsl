@@ -52,6 +52,15 @@
 // console.log(people);
 
 
+// function fin() {
+//     console.log("hello world");
+// }
+// fin();
+
+// var fun = function () {
+//     console.log("hi into this fucking world ");
+// };
+// console.log(fun);
 
 
 
