@@ -83,7 +83,6 @@
 // //        return Math.PI*Math.pow(this.radius,2);
 // //    } alternate option
 // //but waste of memory and process 
-
 // }
 // Circle.prototype.getarea = 
 // function () {
@@ -124,3 +123,17 @@
 //     }
 // };
 // console.log(literalcircle.getarea());
+
+
+// // example 
+// class Dog {
+//     constructor(name) {
+//         this.name = name;
+//     }
+//     bark() {
+//         console.log("hi");
+//         console.log(this.name + " likes barking! Bark!");
+//     }
+// }
+// // var max = new Dog("albert");
+// // max.bark();
