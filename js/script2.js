@@ -78,3 +78,22 @@
 
 // creating object and defining variable and function in it 
 // will help in when work include multiple files 
+
+
+// immediately invoked function expression 
+
+// (function (name) {
+// console.log("hello " +name );
+// })("coursera");
+
+// (function () {
+
+//     var greet = {};
+//     greet.name = "john";
+//     var greeting = "hi ";
+//     greet.sayhi = function () {
+//         console.log(greeting + greet.name);
+//     }
+//     window.greet = greet;
+// })(window);
+// greet.sayhi();
