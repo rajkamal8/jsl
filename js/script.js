@@ -64,4 +64,39 @@
 
 
 
+// this keyword use of it 
 
+// function test() {
+//     console.log(this);
+//     this.myname = "yaakov";
+// }
+// test();
+// console.log(this.myname);
+
+// // function constructor
+// // example 1
+// function Circle (radius) { //there is also different technique for this in ES2016
+//    this.radius = radius;
+//    // console.log(this);
+// //    this.getarea = 
+// //    function () {
+// //        return Math.PI*Math.pow(this.radius,2);
+// //    } alternate option
+// //but waste of memory and process 
+
+// }
+// Circle.prototype.getarea = 
+// function () {
+//     return Math.PI*Math.pow(this.radius,2);
+// }
+// var mycircle = new Circle(10);
+// console.log(mycircle);
+// console.log(mycircle.getarea());
+// // in this new object created with the name mycircle 
+// //point to the same point address
+
+// var othercircle = new Circle (20);
+// console.log(othercircle);
+
+// // doesn`t copy the area code but can use the prototype of 
+// // of area to accomplish its task
