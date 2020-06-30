@@ -99,4 +99,28 @@
 // console.log(othercircle);
 
 // // doesn`t copy the area code but can use the prototype of 
-// // of area to accomplish its task
+// // of area to accomplish its task 
+
+
+
+// //object literals and this keyword
+// // in this "this keyword refer to the object "
+
+// var literalcircle = {
+//     radius : 10 ,
+    
+//     getarea : function () {
+//         // below mention if not include next to next line 
+//         // statement  uses this which implies global object windows
+//         // below helps to implies to the literal object 
+//         var self = this;
+//         console.log(this);
+
+//         var increaseradius = function () {
+//             self.radius = 20;
+//         };
+//         increaseradius ();
+//         return Math.PI*Math.pow(this.radius,2);
+//     }
+// };
+// console.log(literalcircle.getarea());
