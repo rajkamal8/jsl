@@ -1,6 +1,7 @@
-var speakWord = "Good Bye";
+var good = new Object();
+good.goodbye = "Good Bye";
 
 
-function speak(name) {
-  console.log(speakWord + " " + name);
+good.speak = function (name) {
+  console.log(good.goodbye + " " + name);
 }
