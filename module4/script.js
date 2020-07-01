@@ -4,12 +4,10 @@
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
-        console.log(good.speak(names[i]));
-        }
-     else {
-      console.log(speakWord.speak(names[i]));
+        objgood.speak(names[i]);
+        }  else {
+        objhello.speak(names[i]);
     }
-  }
-  
+  }  
   })();
   

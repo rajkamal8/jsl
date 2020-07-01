@@ -1,7 +1,7 @@
-var good = new Object();
-good.goodbye = "Good Bye";
-
-
-good.speak = function (name) {
-  console.log(good.goodbye + " " + name);
-}
+var objgood = new Object ();
+objgood = {
+    speakWord : "Good Bye",
+    speak : function (name){
+        console.log(objgood.speakWord+" "+name);
+    }
+};
